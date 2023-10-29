@@ -1,0 +1,36 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 300px;
+  line-height: 30px;
+  margin: 30px auto;
+  background-color: #002244;
+  color: gold;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  border: 2px solid gold;
+}
+::placeholder {
+  color: gold;
+  text-align: center;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 555px) {
+  /* .login-and-cart-currency-mobile {
+    display: none;
+  } */
+
+  .search-box {
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: fit-content;
+  }
+}

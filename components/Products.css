@@ -1,0 +1,150 @@
+.card {
+  display: flex;
+  width: 320px;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  border-radius: 6px;
+  border: 1px solid #e9e9ea;
+
+  overflow: hidden;
+  color: #10131c;
+}
+
+.card-info {
+  display: flex;
+  width: 320px;
+  min-height: 156px;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 0px 0px 6px 6px;
+}
+
+.card:hover,
+.card-info:hover {
+  background: #d7f8ff;
+}
+
+.card-img {
+  height: 190px;
+  min-width: 320px;
+}
+
+.cart-icon {
+  cursor: pointer;
+}
+
+.product-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+  letter-spacing: -0.4px;
+}
+
+.product-description {
+  color: #625f87;
+  height: 40px;
+  text-overflow: ellipsis;
+
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: -0.24px;
+}
+
+.actual-price {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 28px */
+  letter-spacing: -0.4px;
+}
+
+.original-price {
+  color: #625f87;
+
+  font-size: 12px;
+
+  line-height: 130%; /* 15.6px */
+  letter-spacing: -0.24px;
+  text-decoration: line-through;
+}
+
+.discount-percentage {
+  padding: 4px 10px;
+
+  border-radius: 20px;
+  background: #f8814e;
+  width: fit-content;
+}
+
+.rate-bar {
+  color: rgba(196, 196, 0, 0.815);
+}
+.sale-count {
+  color: #9d9db5;
+
+  font-size: 12px;
+
+  line-height: 130%; /* 11.7px */
+  letter-spacing: -0.27px;
+}
+.block-element {
+  display: flex;
+  flex-direction: column;
+
+  padding: 4px 20px;
+  color: white;
+  border-radius: 10px;
+  background: #0266ff;
+}
+.product-prices {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.product-ratings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.h-6,
+.w-6 {
+  height: 15px;
+  width: 15px;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.add-cart-btnV3 {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 10px;
+
+  width: fit-content;
+}
+
+.cart-item-counter-product {
+  color: #0266ff;
+  text-align: center;
+  /* Web/Basic/b2 16 Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
